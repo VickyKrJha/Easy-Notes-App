@@ -20,7 +20,7 @@ Easy Notes App having Awesome Designs and Functionalities.
 
 **Please click the image below to enlarge.**
 
-<img src="https://github.com/VickyKrJha/Super-Color-Notes-App/blob/main/Note%20Screenshot/screenshot_1.png" height="600" width="300" hspace="40"><img src="https://github.com/VickyKrJha/Super-Color-Notes-App/blob/main/Note%20Screenshot/screenshot_2.png" height="600" width="300" hspace="40">
+<img src="https://github.com/VickyKrJha/Easy-Notes-App/blob/main/screenshots/screenshot_1.png" height="600" width="300" hspace="40"><img src="https://github.com/VickyKrJha/Easy-Notes-App/blob/main/screenshots/screenshot_2.png" height="600" width="300" hspace="40">
 
 
 
