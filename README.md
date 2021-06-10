@@ -5,6 +5,9 @@ Easy Notes App having Awesome Designs and Functionalities.
 
 [https://play.google.com/store/apps/details?id=com.vickysg.securenotesapp]
 
+
+
+
 ## How to Use this App
 
 ****************************************************************
@@ -35,7 +38,7 @@ Easy Notes App having Awesome Designs and Functionalities.
 ## Contributing
 
 Please fork this repository and contribute back using
-[pull requests](https://github.com/VickyKrJha/Super-Color-Notes-App/pulls).
+[pull requests](https://github.com/VickyKrJha/Easy-Notes-App/pulls).
 
 Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
 but will be thoroughly reviewed .
