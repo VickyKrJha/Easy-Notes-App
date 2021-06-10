@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".note.AddNote"
+    android:background="@drawable/bg_design">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:padding="7dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <EditText
+                android:id="@+id/addNoteTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Title Here"
+                android:textSize="22sp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:textColor="#fff"
+                android:background="@drawable/design"
+                android:padding="10dp"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_add_note" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="16dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:maxImageSize="50dp"
+        app:fabCustomSize="80dp"
+        android:backgroundTint="#002AFF"
+        app:srcCompat="@drawable/ic_save_black_24dp" />
+
+    <View
+        android:id="@+id/addImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="75dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/design2">
+
+    </View>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="21dp"
+        android:background="@drawable/design2"
+        android:layout_gravity="bottom|start"
+        app:srcCompat="@drawable/ic_addimage" />
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3912259549278001/2571434586">
+    </com.google.android.gms.ads.AdView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

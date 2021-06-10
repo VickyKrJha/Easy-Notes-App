@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "948077110078",
+    "project_id": "notes-app-fa611",
+    "storage_bucket": "notes-app-fa611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948077110078:android:25fab74a57fbdf8b7e026f",
+        "android_client_info": {
+          "package_name": "com.vickysg.securenotesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948077110078-fr3m7oaa07hhph9d1lbinpsjued2qhm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlKJ9WOX66F0QndfHgxzE36nSCVCzmhYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948077110078-fr3m7oaa07hhph9d1lbinpsjued2qhm4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
